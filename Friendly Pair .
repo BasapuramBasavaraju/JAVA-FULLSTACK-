@@ -1,0 +1,21 @@
+import java.util.*;
+public class Friendly
+{
+    public static void main(String[] args)
+    {
+        Scanner Sc=new Scanner(System.in);
+        int a=Sc.nextInt();
+        int b=Sc.nextInt();
+        int c=a/6;
+        int d=b/28;
+        if(c==d)
+        {
+            System.out.println("Friendly Pair");
+        }
+        else 
+        {
+            System.out.println("Not Friendly Pair");
+        }
+        
+    }
+}
