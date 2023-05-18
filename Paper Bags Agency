@@ -1,0 +1,13 @@
+import java.util.*;
+public class Paper
+{
+    public static void main(String args[])
+    {
+        Scanner Sc=new Scanner(System.in);
+        int a=Sc.nextInt();
+        int b=Sc.nextInt();
+        int c=Sc.nextInt();
+        int d=(a*b)-(100+(a*c));
+        System.out.println(d);
+    }
+}
