@@ -1,0 +1,16 @@
+import java.util.*;
+public class Pow
+{
+    public static void main(String args[])
+    {
+        Scanner Sc=new Scanner(System.in);
+        int sum=1;
+        int X=Sc.nextInt();
+        int b=Sc.nextInt();
+        for(int i=1;i<=b;i++)
+        {
+           sum=sum*X;
+        }
+            System.out.println(sum);
+    }
+}
